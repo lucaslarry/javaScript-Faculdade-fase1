@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo - Lucas Larry</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+
+      .container {
+        max-width: 900px;
+        background: #fff;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      header h1 {
+        font-size: 28px;
+        margin-bottom: 5px;
+      }
+
+      header h2 {
+        font-size: 18px;
+        font-weight: normal;
+        color: #555;
+      }
+
+      section {
+        margin-bottom: 25px;
+      }
+
+      section h3 {
+        font-size: 20px;
+        border-bottom: 2px solid #2c3e50;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        color: #2c3e50;
+      }
+
+      .contact p,
+      .about p,
+      .experience p,
+      .projects p,
+      .education p {
+        margin: 5px 0;
+        line-height: 1.6;
+      }
+
+      a {
+        color: #e67e22;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .job-title {
+        font-weight: bold;
+        color: #2c3e50;
+      }
+
+      .sub-info {
+        font-style: italic;
+        color: #777;
+        font-size: 14px;
+      }
+
+      /* Botão fixo */
+      #backToTop {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #2c3e50;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        display: none; /* escondido até rolar a página */
+        transition: background 0.3s;
+      }
+
+      #backToTop:hover {
+        background: #e67e22;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="top">
+      <header>
+        <h1>Lucas Larry Tertuliano Oliveira dos Santos</h1>
+        <h2>QA | Desenvolvedor</h2>
+      </header>
+
+      <section class="contact">
+        <h3>Contato</h3>
+        <p>
+          Email:
+          <a href="mailto:lucasslarryy@gmail.com">lucasslarryy@gmail.com</a>
+        </p>
+        <p>Telefone: (83) 99819 3024</p>
+        <p>Cidade: Campina Grande - PB</p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/lucaslarry" target="_blank"
+            >linkedin.com/in/lucaslarry</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/lucaslarry" target="_blank"
+            >github.com/lucaslarry</a
+          >
+        </p>
+      </section>
+
+      <section class="about">
+        <h3>Sobre Mim</h3>
+        <p>
+          Sou um desenvolvedor com especialização em Quality Engineering focado
+          em garantir a qualidade e eficiência no desenvolvimento de software.
+          Possuo experiência em automação de testes para aplicações web e APIs,
+          utilizando ferramentas como Selenium e Rest Assured. Além disso, tenho
+          conhecimentos em Java, Spring Boot e JavaScript/Node para
+          desenvolvimento fullstack, sempre buscando aprimorar minhas
+          habilidades e contribuir para a entrega de software robusto e
+          confiável.
+        </p>
+      </section>
+
+      <section class="education">
+        <h3>Formação Acadêmica</h3>
+        <p>
+          <span class="job-title">Sistemas de Informação</span> - Unifacisa
+          <br />
+          <span class="sub-info">Novembro de 2022 – Presente</span>
+        </p>
+      </section>
+
+      <section class="experience">
+        <h3>Experiência Profissional</h3>
+        <p>
+          <span class="job-title">Analista de Testes - GetNet</span> <br />
+          <span class="sub-info">Maio 2025 - Presente</span> <br />
+          Atuo na validação de fluxos de usuário em aplicações internas,
+          garantindo a qualidade das entregas através de testes funcionais.
+          Responsável por planejar, executar e documentar os testes,
+          identificando falhas e contribuindo para a melhoria contínua dos
+          produtos.
+        </p>
+        <p>
+          <span class="job-title">QA Intern – DBC Company</span> <br />
+          <span class="sub-info">Novembro 2024 - Maio 2025</span> <br />
+          Participei da trilha Vem Ser 15, desenvolvendo habilidades em testes
+          de software, automação (REST Assured, Selenium e Cypress) e práticas
+          de DevOps. Atuei em projetos reais como QA, contribuindo para a
+          definição de critérios de aceite, automação de pipeline com GitHub
+          Actions e execução de testes de API e web. Também participei de uma
+          formação fullstack com foco em desenvolvimento back-end utilizando
+          Spring Boot, Spring Data JPA, Spring Security e Swagger.
+        </p>
+      </section>
+
+      <section class="projects">
+        <h3>Projetos</h3>
+        <p>
+          <span class="job-title">API Gerenciamento de Pedidos</span> <br />
+          Criei uma API em Spring Boot de um sistema de gerenciamento de pedidos
+          e pagamentos. O projeto utiliza Spring Data JPA para persistência,
+          Spring Security para autenticação e autorização, e Swagger para
+          documentação da API.
+        </p>
+      </section>
+    </div>
+
+    <!-- Botão voltar ao topo -->
+    <button id="backToTop">⬆ Voltar ao Início</button>
+
+    <script>
+      const backToTop = document.getElementById("backToTop");
+
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          backToTop.style.display = "block";
+        } else {
+          backToTop.style.display = "none";
+        }
+      };
+
+      backToTop.onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+  </body>
+</html>
