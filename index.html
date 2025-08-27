@@ -89,45 +89,22 @@
     </div>
   </section>
 
-  <script>
-    const MAX_CHARS = 100;
-
-    document.querySelectorAll('.person-description').forEach(section => {
-      const p = section.querySelector('.bio');
-      const btn = section.querySelector('.toggle-btn');
-
-      if (!p || !btn) return;
-
-      const full = (p.dataset.fulltext || '').trim();
-      const short = full.length > MAX_CHARS ? full.slice(0, MAX_CHARS) + '...' : full;
-
-      let expanded = false;
-
-      p.textContent = short;
-      btn.textContent = 'Read more';
-
-      btn.addEventListener('click', () => {
-        expanded = !expanded;
-        p.textContent = expanded ? full : short;
-        btn.textContent = expanded ? 'Read Less' : 'Read more';
-      });
-    });
-  </script>
-
   <section class="container color-bg-gray form">
 
     <p class="form-title">ENTRE EM CONTATO CONOSCO</p>
 
-    <div class="forms">
-      <input class="small-input" type="text" placeholder="Name">
+    <form class="forms">
+      <input id="name" class="small-input" type="text" placeholder="Name">
 
-      <input class="small-input" type="mail" placeholder="Mail">
+      <input id="mail" class="small-input" type="mail" placeholder="Mail">
 
-      <input class="big-input" type="text" placeholder="Describre your project">
-    </div>
+      <input id="description" class="big-input" type="text" placeholder="Describre your project">
+
+      <button type="submit" class="button">Enviar</button>
+    </form>
 
   </section>
-
+  <script src="./main.js"></script>
 </body>
 
 </html>
