@@ -1,167 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DEV</title>
+<html lang="en">
 
-    <link rel="stylesheet" href="./assets/css/common/styles.css" />
-    <link rel="stylesheet" href="./assets/css/home/home.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEV</title>
 
-    <style>
-      .resumo {
-        display: none;
-        margin-top: 10px;
-      }
+  <!-- GLOBAL -->
+  <link rel="stylesheet" href="./assets/css/common/styles.css">
+  <!-- HOME -->
+  <link rel="stylesheet" href="./assets/css/home/home.css">
+</head>
 
-      .curriculo {
-        margin-top: 10px;
-        display: none;
-      }
-    </style>
-  </head>
+<body>
+  <p class="container title">OUR DEVS</p>
 
-  <body>
-    <p class="container title">NOSSOS DEVS</p>
-
-    <!-- Bernardo -->
-    <section class="container-background color-bg-black">
-      <div class="container person">
-        <img
-          class="person-img"
-          src="./assets/img/bernado.jpg"
-          alt="Bernardo Schafer"
-        />
-        <div class="person-space-between">
-          <div>
-            <p class="font-64 color-white">Bernardo Schafer</p>
-            <div class="person-hability">
-              <img class="svg" src="./assets/img/svg/lens.svg" alt="" />
-              <p class="font-24 color-white">Data Analytics</p>
-            </div>
-
-            <p class="resumo color-white">
-              Sou estudante de Sistemas de Informação e atualmente estagiário na
-              FIEP-PB, onde atuo com consultas em banco de dados e Power BI. Já
-              desenvolvi projetos em Java com MySQL e em HTML, CSS e JavaScript,
-              sempre buscando melhorar minhas habilidades em análise de dados e
-              programação.
-            </p>
-
-            <a
-              href="./pages/bernardo.html"
-              class="curriculo color-bg-white color-black button"
-              >Currículo Completo</a
-            >
+  <!-- Bernado -->
+  <section class="container-background color-bg-black">
+    <div class="container person">
+      <img class="person-img" src="./assets/img/bernado.jpg" alt="Bernado Schagfer">
+      <div class="person-space-between">
+        <div>
+          <p class="font-64 color-white">Bernado Schafer</p>
+          <div class="person-hability">
+            <img class="svg" src="./assets/img/svg/lens.svg" alt="">
+            <p class="font-24 color-white">Data analytics</p>
           </div>
-          <button class="toggle-resumo color-bg-white color-black button">
-            Ver mais
-          </button>
+        </div>
+
+        <div class="person-description">
+          <p class="bio color-white" data-fulltext="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.">
+          </p>
+          <button class="toggle-btn button">Read more</button>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Lucas Larry -->
-    <section class="container-background color-bg-white">
-      <div class="container person">
-        <img
-          class="person-img"
-          src="./assets/img/larry.jpg"
-          alt="Lucas Larry"
-        />
-        <div class="person-space-between">
-          <div>
-            <p class="font-64 color-black">Lucas Larry</p>
-            <div class="person-hability">
-              <img class="svg" src="./assets/img/svg/quality.svg" alt="" />
-              <p class="font-24 color-black">Quality Assurance</p>
-            </div>
-            <div class="person-hability">
-              <img class="svg" src="./assets/img/svg/back-black.svg" alt="" />
-              <p class="font-24 color-black">Back End Development</p>
-            </div>
-
-            <p class="resumo color-black">
-              Sou desenvolvedor com foco em Quality Engineering, atuando na
-              automação de testes para aplicações web e APIs. Tenho experiência
-              em Rest Assured, Selenium, Cypress e conhecimentos sólidos em
-              Java, Spring Boot e Node.js. Já trabalhei na DBC Company e
-              atualmente sou Analista de Testes na GetNet, sempre garantindo
-              entregas de software de qualidade.
-            </p>
-
-            <a
-              href="./pages/lucaslarry.html"
-              class="curriculo color-bg-black color-white button"
-              >Currículo Completo</a
-            >
+  <!-- Larry -->
+  <section class="container-background color-bg-white">
+    <div class="container person">
+      <img class="person-img" src="./assets/img/larry.jpg" alt="Lucas Larry">
+      <div class="person-space-between">
+        <div>
+          <p class="font-64 color-black">Lucas Larry</p>
+          <div class="person-hability">
+            <img class="svg" src="./assets/img/svg/quality.svg" alt="">
+            <p class="font-24 color-black">Quality Assurance</p>
           </div>
-          <button class="toggle-resumo color-bg-black color-white button">
-            Ver mais
-          </button>
+          <div class="person-hability">
+            <img class="svg" src="./assets/img/svg/back-black.svg" alt="">
+            <p class="font-24 color-black">Back end Development</p>
+          </div>
+        </div>
+
+        <div class="person-description">
+          <p class="bio color-black" data-fulltext="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.">
+          </p>
+          <button class="toggle-btn button">Read more</button>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Micael -->
-    <section class="container-background color-bg-black">
-      <div class="container person">
-        <img
-          class="person-img"
-          src="./assets/img/micael.png"
-          alt="Micael Lima"
-        />
-        <div class="person-space-between">
-          <div>
-            <p class="font-64 color-white">Micael Lima</p>
-            <div class="person-hability">
-              <img class="svg" src="./assets/img/svg/front.svg" alt="" />
-              <p class="font-24 color-white">Front End Development</p>
-            </div>
-            <div class="person-hability">
-              <img class="svg" src="./assets/img/svg/back-white.svg" alt="" />
-              <p class="font-24 color-white">Back End Development</p>
-            </div>
-
-            <p class="resumo color-white">
-              Sou desenvolvedor fullstack com experiência em front-end e
-              back-end. Atuei como freelancer construindo páginas em React e
-              integração com APIs. Também fui monitor de Python e MySQL,
-              auxiliando no desenvolvimento de aplicações acadêmicas. Busco
-              sempre entregar soluções modernas e escaláveis.
-            </p>
-
-            <a
-              href="./pages/micael.html"
-              class="curriculo color-bg-white color-black button"
-              >Currículo Completo</a
-            >
+  <!-- Micael -->
+  <section class="container-background color-bg-black">
+    <div class="container person">
+      <img class="person-img" src="./assets/img/micael.png" alt="Micael Lima">
+      <div class="person-space-between">
+        <div>
+          <p class="font-64 color-white">Micael Lima</p>
+          <div class="person-hability">
+            <img class="svg" src="./assets/img/svg/front.svg" alt="">
+            <p class="font-24 color-white">Front end Development</p>
           </div>
-          <button class="toggle-resumo color-bg-white color-black button">
-            Ver mais
-          </button>
+          <div class="person-hability">
+            <img class="svg" src="./assets/img/svg/back-white.svg" alt="">
+            <p class="font-24 color-white">Back end Development</p>
+          </div>
+        </div>
+
+        <div class="person-description">
+          <p class="bio color-white" data-fulltext="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.">
+          </p>
+          <button class="toggle-btn button">Read more</button>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script>
-      document.querySelectorAll(".toggle-resumo").forEach((botao) => {
-        botao.addEventListener("click", () => {
-          const container = botao.closest(".person-space-between");
-          const resumo = container.querySelector(".resumo");
-          const curriculo = container.querySelector(".curriculo");
+  <section class="container color-bg-gray form">
 
-          if (resumo.style.display === "block") {
-            resumo.style.display = "none";
-            curriculo.style.display = "none";
-            botao.textContent = "Ver mais";
-          } else {
-            resumo.style.display = "block";
-            curriculo.style.display = "inline-block";
-            botao.textContent = "Ver menos";
-          }
-        });
-      });
-    </script>
-  </body>
+    <p class="form-title">ENTRE EM CONTATO CONOSCO</p>
+
+    <form class="forms">
+      <input id="name" class="small-input" type="text" placeholder="Name">
+
+      <input id="mail" class="small-input" type="mail" placeholder="Mail">
+
+      <input id="description" class="big-input" type="text" placeholder="Describre your project">
+
+      <button type="submit" class="button">Enviar</button>
+    </form>
+
+  </section>
+  <script src="./main.js"></script>
+</body>
+
 </html>
