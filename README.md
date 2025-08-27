@@ -10,8 +10,6 @@ que expande ou recolhe a biografia.
 ## 📸 Preview
 
 ![Preview do site](./assets/img/preview.png)\
-*(adicione um printscreen do site na pasta `assets/img` e atualize o
-nome do arquivo acima)*
 
 ------------------------------------------------------------------------
 
