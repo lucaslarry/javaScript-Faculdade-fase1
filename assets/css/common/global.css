@@ -1,0 +1,64 @@
+/* CSS Reset */
+*{
+  box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, p, a, ul, li{
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1;
+}
+
+body{
+  min-height: 100vh;
+}
+
+ul, li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* Components */
+.container-background {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 40px ;
+  padding-right: 40px ;
+}
+
+.svg{
+  color: white;
+  max-width: 50px;
+}
+
+.button{
+  height: 80px;
+  width: 300px;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 36px;
+  border: none;
+}
+
+
+ /* Utils */
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}

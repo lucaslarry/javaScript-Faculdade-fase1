@@ -1,0 +1,23 @@
+/* Colors */
+.color-black{
+  color: #000000;
+}
+
+.color-white{
+  color: #FFFFFF;
+}
+
+/* Color for backgound */
+.color-bg-black{
+  background-color: #000000;
+}
+
+.color-bg-white{
+  background-color: #FFFFFF;
+}
+
+/* Vectors */
+:root{
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+}
