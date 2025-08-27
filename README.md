@@ -52,13 +52,13 @@ que expande ou recolhe a biografia.
 1.  Clone este repositório:
 
     ``` bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/lucaslarry/javaScript-Faculdade-fase1.git
     ```
 
 2.  Acesse a pasta do projeto:
 
     ``` bash
-    cd seu-repositorio
+    cd javaScript-Faculdade-fase1
     ```
 
 3.  Abra o arquivo `index.html` no navegador:
