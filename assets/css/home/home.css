@@ -1,0 +1,37 @@
+.title{
+  font-size: 64px;
+  font-weight: 500;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.person{
+  display: flex;
+  flex: row;
+  gap: 65px;
+}
+
+.person-img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.person-space-between{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.person-name{
+  font-size: 64px;
+  font-weight: bolder;
+}
+
+.person-hability{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 30px;
+}
