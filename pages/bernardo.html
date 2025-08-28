@@ -1,43 +1,169 @@
 <!doctype html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Bernardo Ramalho Oliveira Schafer — Currículo</title>
+  <title>Bernardo Schafer — Data analytics</title>
+  <link rel="icon" href="../public/detalhe.svg" type="image/x-icon">
   <style>
-    :root{
-      --bg:#f7f7f9; --card:#ffffff; --accent:#2c3e50; --muted:#6b7280; --accent-2:#e67e22;
-      --glass: rgba(44,62,80,0.06);
+    :root {
+      --bg: #f7f7f9;
+      --card: #ffffff;
+      --accent: #2c3e50;
+      --muted: #6b7280;
+      --accent-2: #e67e22;
+      --glass: rgba(44, 62, 80, 0.06);
       font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     }
-    *{box-sizing:border-box}
-    body{margin:0;background:linear-gradient(180deg,var(--bg),#eef2f6);color:var(--accent);}
-    .container{max-width:900px;margin:36px auto;padding:20px}
-    .card{background:var(--card);border-radius:14px;box-shadow:0 6px 20px rgba(44,62,80,0.08);overflow:hidden;display:grid;grid-template-columns:260px 1fr}
-    header{padding:28px;border-bottom:1px solid #f1f3f5;display:flex;flex-direction:column;gap:10px}
-    .name{font-size:20px;font-weight:700}
-    .subtitle{color:var(--muted);font-size:13px}
-    .photo{height:96px;width:96px;border-radius:12px;background:var(--glass);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent-2)}
 
-    .sidebar{padding:22px;border-right:1px solid #f1f3f5}
-    .section-title{font-size:12px;text-transform:uppercase;color:var(--muted);letter-spacing:1px;margin-bottom:10px}
-    .info-row{font-size:14px;margin-bottom:8px}
-    .contact a{color:var(--accent);text-decoration:none}
-    .skill{display:inline-block;background:#f3f5f7;padding:6px 10px;border-radius:999px;font-size:13px;margin:6px 6px 0 0}
+    * {
+      box-sizing: border-box
+    }
 
-    .main{padding:22px}
-    .block{margin-bottom:18px}
-    .job-title{font-weight:600}
-    .muted{color:var(--muted);font-size:13px}
-    .projects ul,.skills ul{list-style:none;padding:0;margin:0}
-    .projects li{margin-bottom:8px}
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, var(--bg), #eef2f6);
+      color: var(--accent);
+    }
 
-    .top-btn{position:fixed;right:20px;bottom:20px;background:var(--accent);color:white;padding:12px 18px;border-radius:999px;border:none;cursor:pointer;font-weight:600;transition:all .3s;box-shadow:0 8px 24px rgba(44,62,80,0.18)}
-    .top-btn:hover{background:var(--accent-2)}
+    .container {
+      max-width: 900px;
+      margin: 36px auto;
+      padding: 20px
+    }
 
-    @media (max-width:800px){.card{grid-template-columns:1fr}.sidebar{border-right:none;border-bottom:1px solid #f1f3f5}}
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(44, 62, 80, 0.08);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 260px 1fr
+    }
+
+    header {
+      padding: 28px;
+      border-bottom: 1px solid #f1f3f5;
+      display: flex;
+      flex-direction: column;
+      gap: 10px
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: 700
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 13px
+    }
+
+    .photo {
+      height: 96px;
+      width: 96px;
+      border-radius: 12px;
+      background: var(--glass);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: var(--accent-2)
+    }
+
+    .sidebar {
+      padding: 22px;
+      border-right: 1px solid #f1f3f5
+    }
+
+    .section-title {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: var(--muted);
+      letter-spacing: 1px;
+      margin-bottom: 10px
+    }
+
+    .info-row {
+      font-size: 14px;
+      margin-bottom: 8px
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none
+    }
+
+    .skill {
+      display: inline-block;
+      background: #f3f5f7;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      margin: 6px 6px 0 0
+    }
+
+    .main {
+      padding: 22px
+    }
+
+    .block {
+      margin-bottom: 18px
+    }
+
+    .job-title {
+      font-weight: 600
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 13px
+    }
+
+    .projects ul,
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      margin: 0
+    }
+
+    .projects li {
+      margin-bottom: 8px
+    }
+
+    .top-btn {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background: var(--accent);
+      color: white;
+      padding: 12px 18px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all .3s;
+      box-shadow: 0 8px 24px rgba(44, 62, 80, 0.18)
+    }
+
+    .top-btn:hover {
+      background: var(--accent-2)
+    }
+
+    @media (max-width:800px) {
+      .card {
+        grid-template-columns: 1fr
+      }
+
+      .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #f1f3f5
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
     <div class="card" role="document">
@@ -134,10 +260,11 @@
 
   <script>
     const btn = document.querySelector('.top-btn');
-    window.addEventListener('scroll', ()=>{
-      if(window.scrollY>200) btn.style.opacity=1; else btn.style.opacity=0;
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) btn.style.opacity = 1; else btn.style.opacity = 0;
     });
-    btn.style.opacity=0;
+    btn.style.opacity = 0;
   </script>
 </body>
+
 </html>
