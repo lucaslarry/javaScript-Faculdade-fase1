@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bernardo Ramalho Oliveira Schafer — Currículo</title>
+  <style>
+    :root{
+      --bg:#f7f7f9; --card:#ffffff; --accent:#2c3e50; --muted:#6b7280; --accent-2:#e67e22;
+      --glass: rgba(44,62,80,0.06);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#eef2f6);color:var(--accent);}
+    .container{max-width:900px;margin:36px auto;padding:20px}
+    .card{background:var(--card);border-radius:14px;box-shadow:0 6px 20px rgba(44,62,80,0.08);overflow:hidden;display:grid;grid-template-columns:260px 1fr}
+    header{padding:28px;border-bottom:1px solid #f1f3f5;display:flex;flex-direction:column;gap:10px}
+    .name{font-size:20px;font-weight:700}
+    .subtitle{color:var(--muted);font-size:13px}
+    .photo{height:96px;width:96px;border-radius:12px;background:var(--glass);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent-2)}
+
+    .sidebar{padding:22px;border-right:1px solid #f1f3f5}
+    .section-title{font-size:12px;text-transform:uppercase;color:var(--muted);letter-spacing:1px;margin-bottom:10px}
+    .info-row{font-size:14px;margin-bottom:8px}
+    .contact a{color:var(--accent);text-decoration:none}
+    .skill{display:inline-block;background:#f3f5f7;padding:6px 10px;border-radius:999px;font-size:13px;margin:6px 6px 0 0}
+
+    .main{padding:22px}
+    .block{margin-bottom:18px}
+    .job-title{font-weight:600}
+    .muted{color:var(--muted);font-size:13px}
+    .projects ul,.skills ul{list-style:none;padding:0;margin:0}
+    .projects li{margin-bottom:8px}
+
+    .top-btn{position:fixed;right:20px;bottom:20px;background:var(--accent);color:white;padding:12px 18px;border-radius:999px;border:none;cursor:pointer;font-weight:600;transition:all .3s;box-shadow:0 8px 24px rgba(44,62,80,0.18)}
+    .top-btn:hover{background:var(--accent-2)}
+
+    @media (max-width:800px){.card{grid-template-columns:1fr}.sidebar{border-right:none;border-bottom:1px solid #f1f3f5}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card" role="document">
+      <aside class="sidebar">
+        <header style="display:flex;gap:12px;align-items:center">
+          <div class="photo">BR</div>
+          <div>
+            <div class="name">Bernardo Ramalho Oliveira Schafer</div>
+            <div class="subtitle">Graduando em Sistemas de Informação — Unifacisa</div>
+          </div>
+        </header>
+
+        <div style="margin-top:12px">
+          <div class="section-title">Contato</div>
+          <div class="info-row contact">Telefone: <a href="tel:+5583991831153">(83) 99183-1153</a></div>
+          <div class="info-row contact">Email: <a href="mailto:bernardo.schafer@maisunifacisa.com.br">bernardo.schafer@maisunifacisa.com.br</a></div>
+          <div class="info-row contact">Github: <a href="https://github.com/bernardoschafer" target="_blank" rel="noopener noreferrer">github.com/bernardoschafer</a></div>
+
+          <div style="margin-top:14px">
+            <div class="section-title">Dados Pessoais</div>
+            <div class="info-row muted">Data de nascimento: 04/10/2002</div>
+            <div class="info-row muted">Endereço: Rua Felix Carolino Barbosa, 100 — Campina Grande, PB</div>
+          </div>
+
+          <div style="margin-top:14px">
+            <div class="section-title">Formação</div>
+            <div class="info-row">Ensino Médio Completo — Colégio Motiva</div>
+            <div class="info-row">Graduando Sistemas de Informação — Unifacisa (11/2022 — Presente)</div>
+          </div>
+
+          <div style="margin-top:14px">
+            <div class="section-title">Habilidades</div>
+            <div class="skills">
+              <span class="skill">Java</span>
+              <span class="skill">Python</span>
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">MySQL</span>
+              <span class="skill">SQL Server</span>
+              <span class="skill">Power BI (iniciação)</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <section class="block">
+          <div class="section-title">Resumo</div>
+          <p>Estudante de Sistemas de Informação com experiência como estagiário em atividades de consulta a bancos de dados e iniciação em Power BI. Desenvolveu projetos em Java com MySQL e aplicações web usando HTML, CSS e JavaScript. Busca oportunidades para aplicar conhecimentos de backend e análise de dados.</p>
+        </section>
+
+        <section class="block">
+          <div class="section-title">Experiência</div>
+          <div>
+            <div class="job-title">Estagiário — FIEP - PB</div>
+            <div class="muted">Período: 12/2024 — Até o momento</div>
+            <ul>
+              <li>Atividades principais: consulta em bancos de dados e iniciação em Power BI.</li>
+              <li>Trabalho com relatórios e suporte em demandas de dados.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="block projects">
+          <div class="section-title">Projetos</div>
+          <ul>
+            <li>
+              <strong>Projeto de CRUD</strong> — Aplicação desenvolvida em Java integrada a banco de dados MySQL. Funções: criação, leitura, atualização e exclusão de registros; conexões com banco e camadas de serviço.
+            </li>
+            <li>
+              <strong>Projeto de Marketplace</strong> — Desenvolvido com HTML, CSS e JavaScript; prototipagem da interface e integração básica entre front-end e lógica de negócio.
+            </li>
+          </ul>
+        </section>
+
+        <section class="block">
+          <div class="section-title">Cursos & Formação Complementar</div>
+          <ul>
+            <li>Iniciação em Power BI (prática no trabalho)</li>
+            <li>Desenvolvimento Web (HTML, CSS, JavaScript)</li>
+          </ul>
+        </section>
+
+        <section class="block">
+          <div class="section-title">Mais informações</div>
+          <p class="muted">Capacidades adicionais: construir protótipos e requisitos, aplicar algoritmos de apoio à pesquisa operacional.</p>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <button class="top-btn" title="Voltar ao topo" onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆ Voltar ao topo</button>
+
+  <script>
+    const btn = document.querySelector('.top-btn');
+    window.addEventListener('scroll', ()=>{
+      if(window.scrollY>200) btn.style.opacity=1; else btn.style.opacity=0;
+    });
+    btn.style.opacity=0;
+  </script>
+</body>
+</html>
